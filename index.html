@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Hive</title>
+
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="scripts/bootstrap.byndle.min.js"></script>
+    <script src=https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- icon link -->
+    <link rel="icon" href="img/html.png">
+</head>
+
+<body>
+
+    <nav>
+        <nav class="navbar navbar-expand-lg bg-body-light">
+            <div class="container-md">
+                <a class="navbar-brand" href="#">
+                    <h4 class="fw-bold">Event <span class="highlight">Hive</span></h4>
+                </a>
+                <div class="d-flex gap-3">
+                    <a href="#html" class="text-black text-decoration-none fw-semibold">Login</a>
+                    <a href="#signup" class="text-white  fw-semibold text-decoration-none px-3 py-1  rounded-1"
+                        style="background-color: rgb(112, 0, 255);">Signup</a>
+                </div>
+
+
+            </div>
+        </nav>
+    </nav>
+
+    <section class="hero">
+        <div id="carouselExampleSlidesOnly" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h1 class="display-4  text-light fw-semibold">MADE FOR THOSE <br>WHO DO</h1>
+                </div>
+            </div>
+
+            <div class=" forms gap-4" style="display: flex;">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Choose event type</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Choose location</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+
+                    <option selected>Choose date and time</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <button class="btn2"><i class="fa-solid fa-magnifying-glass " style="color: #eceff3; "></i></button>
+
+            </div>
+
+    </section>
+
+    <section class="events" style="justify-content: space-between;">
+        <div>
+            <h3 class="fw-bold">Upcoming <span class="highlight">Events</span></h3>
+        </div>
+        <div class="dropdowns forms2" style="display: flex;  gap: 20px;">
+            <div class="btn-group">
+                <button class="btn btn-secondary btn-sm dropdown-toggle text-black" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Weekdays
+                </button>
+                <ul class="dropdown-menu">
+                    ...
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-secondary btn-sm dropdown-toggle text-black" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Event type
+                </button>
+                <ul class="dropdown-menu">
+                    ...
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-secondary btn-sm text-black" type="button">
+                    Choose another event
+                </button>
+                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    ...
+                </ul>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="cards">
+            <div class=" row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bef6a57cfe90dd36280fedc78d278575.jpg" class="card-img-top"
+                            style=" padding: 12px; border-radius: 17px;">
+                        <div class="card-body">
+                            <h5 class="card-title">BestSeller Book Bootcamp-write, publish your book ,Lucknow</h5>
+                            <h6 class="card-text fw-normal" style="color: rgb(158, 75, 236);">Saturday,March 18</h6>
+                            <p class="text-body-tertiary fw-normal">ONLINE EVENT-Attend Anywhere</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bef6a57cfe90dd36280fedc78d278575.jpg" class="card-img-top"
+                            style=" padding: 12px; border-radius: 17px;">
+                        <div class="card-body">
+                            <h5 class="card-title">BestSeller Book Bootcamp-write, publish your book ,Lucknow</h5>
+                            <h6 class="card-text fw-normal" style="color: rgb(158, 75, 236);">Saturday,March 18</h6>
+                            <p class="text-body-tertiary fw-normal">ONLINE EVENT-Attend Anywhere</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bef6a57cfe90dd36280fedc78d278575.jpg" class="card-img-top"
+                            style=" padding: 12px; border-radius: 17px;">
+                        <div class="card-body">
+                            <h5 class="card-title">BestSeller Book Bootcamp-write, publish your book ,Lucknow</h5>
+                            <h6 class="card-text fw-normal" style="color: rgb(158, 75, 236);">Saturday,March 18</h6>
+                            <p class="text-body-tertiary fw-normal">ONLINE EVENT-Attend Anywhere</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bef6a57cfe90dd36280fedc78d278575.jpg" class="card-img-top"
+                            style=" padding: 12px; border-radius: 17px;">
+                        <div class="card-body">
+                            <h5 class="card-title">BestSeller Book Bootcamp-write, publish your book ,Lucknow</h5>
+                            <h6 class="card-text fw-normal" style="color: rgb(158, 75, 236);">Saturday,March 18</h6>
+                            <p class="text-body-tertiary fw-normal">ONLINE EVENT-Attend Anywhere</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bef6a57cfe90dd36280fedc78d278575.jpg" class="card-img-top"
+                            style=" padding: 12px; border-radius: 17px;">
+                        <div class="card-body">
+                            <h5 class="card-title">BestSeller Book Bootcamp-write, publish your book ,Lucknow</h5>
+                            <h6 class="card-text fw-normal" style="color: rgb(158, 75, 236);">Saturday,March 18</h6>
+                            <p class="text-body-tertiary fw-normal">ONLINE EVENT-Attend Anywhere</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bef6a57cfe90dd36280fedc78d278575.jpg" class="card-img-top"
+                            style=" padding: 12px; border-radius: 17px;">
+                        <div class="card-body">
+                            <h5 class="card-title">BestSeller Book Bootcamp-write, publish your book ,Lucknow</h5>
+                            <h6 class="card-text fw-normal" style="color: rgb(158, 75, 236);">Saturday,March 18</h6>
+                            <p class="text-body-tertiary fw-normal">ONLINE EVENT-Attend Anywhere</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div style="justify-content: center; text-align: center;">
+            <a href="#" class="text-white  fw-semibold text-decoration-none px-3 py-3  rounded-1"
+                style="background-color: rgb(112, 0, 255);">Load More...</a>
+        </div>
+
+
+    </section>
+    <section class="clients">
+        <div class="brands" style="display: flex; background-color: navy; justify-content: space-around;">
+            <img class="img" src="images/385642e5d482db14204739d55ac435fa.png" alt width="290px" height="193px"
+                style="margin-left: 40px; margin-right: 60px;">
+            <div class="lorem" style="margin-top: 30px;">
+                <h3 class="text-white">Make your own event</h3>
+                <p class="text-white">Lorem ispem diloe emit, consecturt <br> adisplicing slit.</p>
+                <a href="#" class="text-white  fw-semibold text-decoration-none px-5 py-2  rounded-1"
+                    style="background-color: rgb(112, 0, 255);">Make Events</a>
+            </div>
+        </div>
+
+        <div style="justify-content: center; text-align: center; margin-top: 50px;">
+            <h3 class="fw-bold">Join these <span class="highlight">Brands</span></h3>
+            <p class="para fw-semibold" style="font-size: small;">We've had the pleasure of working with
+                industry-defining
+                brands.
+                These are <br>just some of
+                them
+            </p>
+            <div class="logo-container">
+                <div class="logo-item"><img src="images/16194171a695e1c46b17b64231f9db91.png" alt="Logo 1" width="100">
+                </div>
+                <div class="logo-item"><img src="images/20d6528293de2b296cee076fbc4c437e.png" alt="Logo 2" width="100">
+                </div>
+                <div class="logo-item"><img src="images/28687661d4684b8199e85aed7f2bce45.png" alt="Logo 3" width="100">
+                </div>
+                <div class="logo-item"><img src="images/ba13b9ee2d260ce8f17bb94382b37f15.png" alt="Logo 1" width="100">
+                </div>
+                <div class="logo-item"><img src="images/818f26a3025c0032a466d085f1d5985f.png" alt="Logo 2" width="100">
+                </div>
+                <div class="logo-item"><img src="images/cfdd8d3f40f70b76b34085d51a339d3b.png" alt="Logo 3" width="100">
+                </div>
+                <div class="logo-item"><img src="images/9c919df8c6f214869a74d9ece6b5dd48.png" alt="Logo 2" width="100">
+                </div>
+                <div class="logo-item"><img src="images/dddc916dd0002f03d55e708663a95958.png" alt="Logo 2" width="100">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="colleges" style="justify-content: center; align-items: center; padding: 60px;">
+        <div style=" margin-top: 50px; margin-left: 60px;">
+            <h3 class="fw-bold">Trending <span class="highlight">Colleges</span></h3>
+        </div>
+        <div class=" row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100" style="border-radius: 10px;">
+                    <div style="display: flex;">
+                        <img src="images/99b218a29883685eb5cf8946b1a016ba.png" class="card-img-top" height="300px"
+                            style=" border-radius: 10px;">
+
+
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Harvard University</h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="text-body-tertiary fw-normal">Stanford,California </p>
+                            <i class="fa-solid fa-ellipsis-vertical"
+                                style="background-color: rgba(0, 0, 0, 0.066); width: 40px; padding: 15px; border-radius: 80px; height: 40px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style=" justify-content: space-between;">
+                <div class="card h-100" style="border-radius: 10px;">
+
+                    <img src="images/99b218a29883685eb5cf8946b1a016ba.png" class="card-img-top" height="300px"
+                        style=" border-radius: 10px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Stanford University</h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="text-body-tertiary fw-normal">Stanford,California </p>
+                            <i class="fa-solid fa-ellipsis-vertical"
+                                style="background-color: rgba(0, 0, 0, 0.066); width: 40px; padding: 15px; border-radius: 80px; height: 40px;"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" style="border-radius: 10px;">
+                    <img src="images/99b218a29883685eb5cf8946b1a016ba.png" class="card-img-top" height="300px"
+                        style=" border-radius: 10px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Nanyang University</h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="text-body-tertiary fw-normal">Stanford,California </p>
+                            <i class="fa-solid fa-ellipsis-vertical"
+                                style="background-color: rgba(0, 0, 0, 0.066); width: 40px; padding: 15px; border-radius: 80px; height: 40px;"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="justify-content: center; text-align: center; padding: 40px;">
+            <a href="#" class="text-white  fw-semibold text-decoration-none px-3 py-3  rounded-1"
+                style="background-color: rgb(112, 0, 255);">Load More...</a>
+        </div>
+        <div>
+            <div>
+                <div style=" margin-top: 50px; margin-left: 60px;">
+                    <h3 class="fw-bold">Our <span class="highlight">Blogs</span></h3>
+                </div>
+            </div>
+            <div class=" row row-cols-1 row-cols-md-3 g-2">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bef6a57cfe90dd36280fedc78d278575.jpg" class="card-img-top"
+                            style=" padding: 12px; border-radius: 17px;">
+                        <div class="card-body">
+                            <h5 class="card-title">BestSeller Book Bootcamp-write, publish your book ,Lucknow</h5>
+                            <h6 class="card-text fw-normal" style="color: rgb(158, 75, 236);">Saturday,March 18</h6>
+                            <p class="text-body-tertiary fw-normal">ONLINE EVENT-Attend Anywhere</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style=" justify-content: space-between;">
+                    <div class="card h-100">
+                        <img src="images/bef6a57cfe90dd36280fedc78d278575.jpg" class="card-img-top"
+                            style=" padding: 12px; border-radius: 17px;">
+                        <div class="card-body">
+                            <h5 class="card-title">BestSeller Book Bootcamp-write, publish your book ,Lucknow</h5>
+                            <h6 class="card-text fw-normal" style="color: rgb(158, 75, 236);">Saturday,March 18</h6>
+                            <p class="text-body-tertiary fw-normal">ONLINE EVENT-Attend Anywhere</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bef6a57cfe90dd36280fedc78d278575.jpg" class="card-img-top"
+                            style=" padding: 12px; border-radius: 17px;">
+                        <div class="card-body">
+                            <h5 class="card-title">BestSeller Book Bootcamp-write, publish your book ,Lucknow</h5>
+                            <h6 class="card-text fw-normal" style="color: rgb(158, 75, 236);">Saturday,March 18</h6>
+                            <p class="text-body-tertiary fw-normal">ONLINE EVENT-Attend Anywhere</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+</body>

@@ -1,0 +1,285 @@
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", ;
+    background-color: rgba(245, 245, 245, 0.61);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    display: block;
+
+}
+
+/* @media screen and (max-width: 500px) {
+    body {
+        background-color: red;
+    }
+} */
+
+
+.highlight {
+    color: rgb(112, 0, 255);
+}
+
+
+
+
+.hero {
+    background-image: url(../images/bef6a57cfe90dd36280fedc78d278575.jpg);
+    background-position: center;
+    height: 496px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+
+
+}
+
+.forms {
+    width: 100%;
+    align-items: center;
+    margin-top: 200px;
+    display: flex;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: rgb(4, 25, 120);
+    border-radius: 10px;
+
+
+}
+
+.forms2 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 40px;
+
+
+}
+
+
+
+
+.form-select {
+    width: 80%;
+}
+
+.btn2 {
+    background-color: #7848F4;
+    border-color: #7848F4;
+    width: 50px;
+    border-radius: 10px;
+
+
+}
+
+.btn {
+    background-color: rgba(245, 245, 245, 0.45);
+}
+
+.btn-secondary {
+    background-color: rgba(245, 245, 245, 0.493) !important;
+    border-color: rgba(240, 248, 255, 0.82);
+
+}
+
+.events {
+    height: 20vh;
+    margin-top: 100px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 01px;
+    justify-content: space-between;
+
+}
+
+.cards {
+
+    margin: 25px;
+    margin-left: 90px;
+    margin-right: 90px;
+    line-height: 25px;
+}
+
+.col {
+    padding: 10px;
+}
+
+.event2 {
+    height: 100vh;
+
+}
+
+.grid {
+    background-color: navy;
+    margin-top: 90px;
+    height: 213px;
+    line-height: 120px;
+    padding: 20px;
+}
+
+.btn3 {
+    width: 190px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+
+}
+
+
+.clients {
+    height: 190vh;
+    margin-top: 30px;
+}
+
+
+
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.logo-item {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.colleges {
+    height: 90vh;
+}
+
+
+@media (max-width: 768px) {
+    .logo-item {
+        width: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo-item {
+        width: 100px;
+        height: 100%;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .card-list .card-item {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .card-list {
+        margin: 0 auto;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    .card-list .card-item {
+        font-size: x-small;
+        margin: 0 auto;
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .forms {
+        height: 10px;
+        margin-top: 60px;
+        gap: 10px;
+        padding: 125px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .forms2 {
+        height: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .brands {
+        /* height: 10px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .brands .lorem {
+        font-size: x-small;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .brands .img {
+        height: 190px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 500px) {
+    .events {
+        display: flex;
+        height: 30px;
+        width: 30px;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+
+
+/* mobile */
+@media (max-width: 550px) {
+    .clients {
+        height: 90vh;
+    }
+}
+
+/* medium */
+@media (max-width: 768px) {
+    .forms {
+        height: 20vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .forms .btn2 {
+        width: 83%;
+    }
+}
